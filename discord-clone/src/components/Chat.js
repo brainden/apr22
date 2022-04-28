@@ -10,7 +10,7 @@ import Messages from './Messages';
 
 function Chat() {
   return (
-    <div>
+    <div className='chat'>
       <Chatheader />
       <div className='chat__messages'>
         <Messages />
