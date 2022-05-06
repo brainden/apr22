@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import Sidebar from "../src/components/Sidebar";
-import Chat from "../src/components/Chat"
+import Chat from "../src/components/Chat";
+import Userbar from '../src/components/Userbar';
 // import { selectUser } from "./features/userSlice";
 // import { useDispatch, useSelector } from "react-redux";
 // import Login from "./components/Login";
@@ -35,6 +36,7 @@ function App() {
     <div className="app">
       <Sidebar />
       <Chat />
+      <Userbar />
     </div>
   );
 }
