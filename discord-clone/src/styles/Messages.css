@@ -14,3 +14,7 @@
   margin-left: 20px;
   font-size: x-small;
 }
+
+.messages:hover {
+  background-color: #40464b;
+}

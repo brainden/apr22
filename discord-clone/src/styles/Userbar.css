@@ -6,9 +6,14 @@
 
 .Users {
   display: flex;
-  margin: 1rem;
+  width: 10rem;
+  padding: 10px;
 }
 
 .Username {
   padding: .5rem;
+}
+
+.Users:hover {
+  background-color: #40464b;
 }
